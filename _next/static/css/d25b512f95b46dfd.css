@@ -1,0 +1,51 @@
+.StrapiRichText_root__LUiYo a {
+    text-decoration: underline
+}
+
+.StrapiRichText_root__LUiYo ol,
+.StrapiRichText_root__LUiYo ul {
+    list-style-position: outside
+}
+
+.StrapiRichText_root__LUiYo ul {
+    list-style-type: disc
+}
+
+.StrapiRichText_root__LUiYo ol {
+    list-style-type: decimal
+}
+
+.StrapiRichText_root__LUiYo h1,
+.StrapiRichText_root__LUiYo h2,
+.StrapiRichText_root__LUiYo h3,
+.StrapiRichText_root__LUiYo h4,
+.StrapiRichText_root__LUiYo h5,
+.StrapiRichText_root__LUiYo h6 {
+    font-weight: 700;
+    line-height: 1.1
+}
+
+.StrapiRichText_root__LUiYo h1 {
+    font-size: 3em;
+    font-weight: 700
+}
+
+.StrapiRichText_root__LUiYo h2 {
+    font-size: 2.5em
+}
+
+.StrapiRichText_root__LUiYo h3 {
+    font-size: 2em
+}
+
+.StrapiRichText_root__LUiYo h4 {
+    font-size: 1.7em
+}
+
+.StrapiRichText_root__LUiYo h5 {
+    font-size: 1.4em
+}
+
+.StrapiRichText_root__LUiYo h6 {
+    font-size: 1.2em
+}

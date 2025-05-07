@@ -1,0 +1,392 @@
+.account_customerPortal__4yhRB {
+    z-index: 99;
+    position: relative
+}
+
+.account_accountContainer__8Iiya {
+    background-color: #fdfdfd;
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: calc(8.75vh + 3em)
+}
+
+.account_imageContainer__rTW56 {
+    height: 22.85em;
+    width: 100%;
+    padding-top: .3em;
+    padding-left: .3em;
+    padding-right: .3em;
+    margin-bottom: 3.9em
+}
+
+.account_imageContainer__rTW56 img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: .5em
+}
+
+.account_homeButton___saJh {
+    width: 4.65em;
+    top: .7em;
+    left: .7em;
+    aspect-ratio: 1/1;
+    position: absolute;
+    z-index: 99;
+    background-color: #fdfdfd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: .5em;
+    cursor: pointer
+}
+
+.account_homeButton___saJh svg {
+    width: 33%
+}
+
+.account_title__O8WNe {
+    font-family: Youth;
+    font-size: 2.45em;
+    color: #575349;
+    font-weight: 500;
+    margin-bottom: 1.7em;
+    letter-spacing: -.03em
+}
+
+.account_CTAContainer__kgZzb {
+    width: 92%;
+    display: flex;
+    flex-direction: column
+}
+
+.account_CTA__FP7ky {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border: 1px solid #e6e4e3;
+    border-radius: .5em;
+    padding: 1.5em 1em;
+    font-family: Youth;
+    color: #61574e;
+    margin-bottom: .92em;
+    cursor: pointer
+}
+
+.account_iconAndTextCTAContainer__PlLS2 {
+    display: flex;
+    gap: .8em;
+    align-items: center
+}
+
+.account_iconContainer__xaU_F {
+    border: 1px solid #e6e4e3;
+    border-radius: .5em;
+    width: 2.6em;
+    aspect-ratio: 1/1;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.account_iconContainer__xaU_F svg {
+    width: 35%
+}
+
+.account_iconAndTextCTAContainer__PlLS2 span {
+    font-size: 1.2em
+}
+
+.account_arrow__W0hCQ {
+    width: .8em
+}
+
+.account_homeButtonDesktop__L2Co2 {
+    display: none
+}
+
+@media (min-width:1024px) {
+    .account_customerPortal__4yhRB {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        padding: .85em;
+        background-color: #eeece8;
+        overflow: hidden;
+        align-items: center;
+        font-size: 1em
+    }
+
+    .account_desktopImage__WWqRd {
+        width: 48.958vw;
+        height: 97.77%;
+        -o-object-fit: cover;
+        object-fit: cover;
+        position: fixed;
+        left: .85em;
+        border-radius: .9em
+    }
+
+    .account_accountContainer__8Iiya {
+        border-radius: .9em;
+        width: 48.958vw;
+        height: 97.77vh;
+        min-height: 97.77vh;
+        padding-bottom: 0;
+        justify-content: center;
+        scrollbar-width: none;
+        -ms-overflow-style: none
+    }
+
+    .account_accountContainer__8Iiya::-webkit-scrollbar {
+        display: none
+    }
+
+    .account_imageContainer__rTW56 {
+        display: none
+    }
+
+    .account_homeButtonDesktop__L2Co2 {
+        width: 4.65em;
+        top: 1.5em;
+        left: 1.5em;
+        position: fixed;
+        aspect-ratio: 1/1;
+        z-index: 99;
+        background-color: #fdfdfd;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: .5em;
+        cursor: pointer
+    }
+
+    .account_homeButtonDesktop__L2Co2 svg {
+        width: 33%
+    }
+
+    .account_title__O8WNe {
+        font-size: 3.45em;
+        margin-bottom: .94em
+    }
+
+    .account_CTAContainer__kgZzb {
+        width: 56.737%
+    }
+}
+
+@media (min-width:1900px) {
+    .account_customerPortal__4yhRB {
+        font-size: .9em
+    }
+}
+
+@media (min-width:768px) {
+    .account_customerPortal__4yhRB {
+        font-size: 1.1em
+    }
+}
+
+@media (max-width:350px) {
+    .account_customerPortal__4yhRB {
+        font-size: .9em
+    }
+}
+
+.contactInfoOverlay_contactInfoOverlayContainer__t1tGM {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3em
+}
+
+.contactInfoOverlay_inputsContainer___kzNc {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1.85em
+}
+
+.contactInfoOverlay_closureButton__srW9p {
+    position: absolute;
+    width: 4.5em;
+    aspect-ratio: 1/1;
+    left: .85em;
+    top: .85em;
+    border-radius: .4em;
+    background-color: #efede9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer
+}
+
+.contactInfoOverlay_closureButton__srW9p svg {
+    width: 30%
+}
+
+.contactInfoOverlay_title__Hsf1h {
+    width: 89.33%;
+    font-family: Youth;
+    font-size: 2.55em;
+    font-weight: 500;
+    letter-spacing: -.05em;
+    color: #575349;
+    text-align: center;
+    margin-top: 3.7em
+}
+
+.contactInfoOverlay_informationInputContainer__Y86oO {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.85em
+}
+
+.contactInfoOverlay_informationInputContainer__Y86oO input {
+    padding: 1.3em 1em;
+    border-radius: .5em;
+    border: 1px solid #d6d4d1;
+    font-family: Aeonik;
+    color: #a39b8b;
+    font-size: 1.05em;
+    outline: none;
+    letter-spacing: .02em
+}
+
+.contactInfoOverlay_informationInputContainer__Y86oO input:disabled {
+    background-color: #fdfdfd
+}
+
+.contactInfoOverlay_informationInputContainer__Y86oO:last-of-type {
+    margin-bottom: 0 !important
+}
+
+.contactInfoOverlay_informationInputContainer__Y86oO label {
+    text-transform: uppercase;
+    font-family: Aeonik Fono;
+    font-size: .8em;
+    margin-bottom: .55em
+}
+
+.contactInfoOverlay_editCTA__X4A1F {
+    font-family: Aeonik;
+    color: #575349;
+    text-decoration: underline;
+    text-underline-offset: .3em;
+    cursor: pointer;
+    font-size: 1.05em
+}
+
+@media (min-width:1024px) {
+    .contactInfoOverlay_closureButton__srW9p {
+        display: none
+    }
+
+    .contactInfoOverlay_contactInfoOverlayContainer__t1tGM {
+        padding-block: 200px;
+        overflow-y: auto;
+        min-height: 100%
+    }
+
+    .contactInfoOverlay_title__Hsf1h {
+        width: 100%;
+        font-size: 3.6em;
+        margin-top: 0
+    }
+
+    .contactInfoOverlay_inputsContainer___kzNc {
+        display: grid;
+        grid-template-rows: repeat(3, auto);
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 1.71em;
+        grid-column-gap: .41em
+    }
+
+    .contactInfoOverlay_informationInputContainer__Y86oO {
+        width: 100%;
+        margin-bottom: 0
+    }
+
+    .contactInfoOverlay_informationInputContainer__Y86oO input {
+        padding: 1.085em .7em;
+        font-size: 1.2em
+    }
+
+    .contactInfoOverlay_editCTA__X4A1F {
+        font-size: 1.23em
+    }
+}
+
+.CustomerPortalBar_customerPortalBarContainer__C9SP7 {
+    height: 8.75vh;
+    width: 100%;
+    background-color: #4c4c4c;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    z-index: 99
+}
+
+.CustomerPortalBar_iconsContent__VWo2p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 86.4%
+}
+
+.CustomerPortalBar_iconsContent__VWo2p svg {
+    width: 1.7em;
+    padding-top: .6em;
+    padding-bottom: .6em;
+    border-bottom: 0 solid #fe814b
+}
+
+.CustomerPortalBar_hoverName__hh6rY {
+    display: none
+}
+
+@media (min-width:1024px) {
+    .CustomerPortalBar_customerPortalBarContainer__C9SP7 {
+        width: 48.958vw;
+        right: .85em;
+        bottom: .7em;
+        border-bottom-left-radius: .9em;
+        border-bottom-right-radius: .9em;
+        height: 6.666vh
+    }
+
+    .CustomerPortalBar_customerPortalBarContainer__C9SP7 a,
+    .CustomerPortalBar_customerPortalBarContainer__C9SP7 button,
+    .CustomerPortalBar_hoverName__hh6rY {
+        display: flex;
+        align-items: center;
+        justify-content: center
+    }
+
+    .CustomerPortalBar_hoverName__hh6rY {
+        position: absolute;
+        bottom: 6.8vh;
+        height: 4.222vh;
+        background-color: #eeece7;
+        color: #a39b8b;
+        font-family: Aeonik;
+        letter-spacing: -.01em;
+        white-space: nowrap;
+        border-radius: .3em;
+        padding-left: .8em;
+        padding-right: .8em;
+        font-size: .9em;
+        opacity: 0;
+        pointer-events: none
+    }
+}
