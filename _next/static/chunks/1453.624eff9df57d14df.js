@@ -88,7 +88,7 @@
                     })), () => {
                         h.current && (h.current.kill(), h.current = null)
                     }), []), (0, l.jsx)("div", {
-                        className: "bg-dark_beige p-half-container-mobile md:p-half-container",
+                        className: "bg-white p-half-container-mobile md:p-half-container",
                         children: (0, l.jsxs)("div", {
                             ref: t,
                             className: "relative h-[100vw] landscape:h-[calc(100vh_-_var(--padding-half-container)*2)] rounded-13 overflow-hidden bg-light_beige",
@@ -341,7 +341,7 @@
                     };
                     return (0, l.jsx)("div", {
                         ref: f,
-                        className: "relative h-[300vh] bg-light_beige",
+                        className: "relative h-[300vh] bg-white",
                         children: (0, l.jsxs)("div", {
                             className: "sticky top-0 px-container grid grid-cols-6 lg:grid-cols-12 h-screen content-center overflow-hidden",
                             children: [(0, l.jsx)("div", {

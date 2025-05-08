@@ -228,7 +228,7 @@
                         };
                     return (0, n.jsx)("div", {
                         ref: c,
-                        className: "w-full h-[400vh] -mt-[100vh] sticky top-0 bg-dark_beige",
+                        className: "w-full h-[400vh] -mt-[100vh] sticky top-0 bg-white",
                         children: (0, n.jsxs)("div", {
                             className: "sticky top-0 w-full h-screen p-[1rem]",
                             children: [(0, n.jsxs)("div", {
@@ -462,7 +462,7 @@
                         };
                     return (0, n.jsx)("div", {
                         ref: t,
-                        className: "w-full bg-dark_beige sticky px-half-container-mobile md:px-half-container -mt-[100svh] h-[calc(100svh*4)] opacity-0",
+                        className: "w-full bg-white sticky px-half-container-mobile md:px-half-container -mt-[100svh] h-[calc(100svh*4)] opacity-0",
                         children: (0, n.jsxs)("div", {
                             ref: c,
                             className: "sticky top-half-container-mobile md:top-half-container overflow-hidden w-full h-[calc(100svh_-_var(--padding-half-container-mobile)*2)] md:h-[calc(100svh_-_var(--padding-half-container)*2)] rounded-15",
