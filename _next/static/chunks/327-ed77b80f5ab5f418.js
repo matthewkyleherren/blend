@@ -447,7 +447,7 @@
                 var t;
                 let {
                     data: n
-                } = e, a = n.metaTitle ? n.metaTitle : n.title ? "Pebble | ".concat(n.title) : "Pebble Mobility", s = (null === (t = n.metaImage) || void 0 === t ? void 0 : t.data) ? {
+                } = e, a = n.metaTitle ? n.metaTitle : n.title ? "Blend | ".concat(n.title) : "Pebble Mobility", s = (null === (t = n.metaImage) || void 0 === t ? void 0 : t.data) ? {
                     url: o.$N(n.metaImage.data.attributes.url),
                     width: n.metaImage.data.attributes.width,
                     height: n.metaImage.data.attributes.height,
@@ -461,7 +461,7 @@
                         content: a
                     }, "title"), (0, r.jsx)("meta", {
                         property: "og:site_name",
-                        content: "Pebble"
+                        content: "Blend"
                     }), n.metaDescription && (0, r.jsx)("meta", {
                         name: "description",
                         content: n.metaDescription
@@ -481,7 +481,7 @@
                         }) : null]
                     }), (0, r.jsx)("meta", {
                         name: "twitter:card",
-                        content: "summary_large_image"
+                        content: "summary_image"
                     }), (0, r.jsx)("meta", {
                         name: "theme-color",
                         content: "#d7d1c6"

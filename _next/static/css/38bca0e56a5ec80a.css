@@ -6630,3 +6630,11 @@ screen and (orientation:landscape) and (hover:none) {
         width: auto
     }
 }
+
+
+.disabled-wrk {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+}

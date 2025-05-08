@@ -679,7 +679,7 @@
                                         })
                                     }), (0, n.jsxs)("div", {
                                         ref: F,
-                                        className: "absolute left-0 top-0 w-full h-full z-4 pointer-events-none flex items-end",
+                                        className: "absolute left-0 top-0 w-full h-full z-4 pointer-events-none flex items-end disabled-wrk",
                                         children: [(0, n.jsx)("video", {
                                             ref: N,
                                             className: "w-full h-[70%] xl:h-full z-3 pointer-events-none object-cover object-[90%_center] xl:object-[bottom_center]",
@@ -692,7 +692,7 @@
                                             })
                                         }), r.foregroundImage.data && (0, n.jsx)("div", {
                                             ref: L,
-                                            className: "absolute left-0 bottom-0 w-full h-[70%] xl:h-full",
+                                            className: "absolute left-0 bottom-0 w-full h-[70%] xl:h-full disabled-wrk",
                                             children: (0, n.jsx)(y.p, {
                                                 loading: "eager",
                                                 priority: !0,
@@ -739,7 +739,7 @@
                                                 })]
                                             })
                                         }), r.video.data && r.previewVideoLoop.data && (0, n.jsx)("div", {
-                                            className: "relative w-[15.8rem] md:w-[28rem] lg:w-[45rem] xl:w-[33.6rem]",
+                                            className: "relative w-[15.8rem] md:w-[28rem] lg:w-[45rem] xl:w-[33.6rem] disabled-wrk",
                                             onMouseEnter: () => Y(!1),
                                             onMouseLeave: () => !A && Y(!0),
                                             children: (0, n.jsx)(v, {
