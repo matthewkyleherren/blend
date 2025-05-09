@@ -183,7 +183,7 @@
                                 ref: e => {
                                     a.current[t] = e
                                 },
-                                className: "w-full h-full absolute left-0 top-0 overflow-hidden rounded-t-18",
+                                className: "w-full h-full absolute left-0 top-0 overflow-hidden rounded-t-18 bg-white",
                                 style: {
                                     zIndex: t + 1
                                 },
