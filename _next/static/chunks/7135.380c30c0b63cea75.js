@@ -375,7 +375,7 @@
                                     })
                                 }), (0, n.jsx)("div", {
                                     ref: C,
-                                    className: "relative mt-auto pb-10 ml-auto mr-10",
+                                    className: "left-10 relative mt-auto pb-10 ml-10",
                                     children: (0, n.jsx)(l.Z, {
                                         size: "large",
                                         children: (0, n.jsx)("div", {

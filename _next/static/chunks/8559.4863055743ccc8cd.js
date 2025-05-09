@@ -595,7 +595,7 @@
                             children: [(0, n.jsx)("div", {
                                 className: "absolute left-0 top-0 w-full h-full bg-dots bg-size-dots bg-repeat z-0 opacity-40"
                             }), (0, n.jsx)("div", {
-                                className: "relative bg-light_beige z-1",
+                                className: "relative bg-white z-1",
                                 children: (0, n.jsxs)("div", {
                                     ref: p,
                                     className: "relative overflow-hidden h-screen min-h-[600px] landscape:min-h-[800px] lg:!min-h-[600px]",
@@ -642,7 +642,7 @@
                                             })
                                         })
                                     }), (0, n.jsx)("div", {
-                                        className: "absolute px-container top-container w-full grid grid-cols-6 lg:grid-cols-12 mt-[6rem] xl:mt-0 z-2",
+                                        className: "absolute px-container bottom-container w-full grid grid-cols-6 lg:grid-cols-12 mt-[6rem] xl:mt-0 z-2",
                                         children: (0, n.jsxs)("div", {
                                             className: "col-start-1 col-end-7 lg:col-start-2 lg:col-end-12",
                                             children: [(0, n.jsx)("div", {
@@ -653,7 +653,7 @@
                                                         h.current[r] = e
                                                     },
                                                     children: (0, n.jsx)("span", {
-                                                        className: "block heading-223",
+                                                        className: "block heading-164",
                                                         ref: e => {
                                                             w.current[r] = e
                                                         },
@@ -668,7 +668,7 @@
                                                         f.current[r] = e
                                                     },
                                                     children: (0, n.jsx)("span", {
-                                                        className: "block heading-223",
+                                                        className: "block heading-164",
                                                         ref: e => {
                                                             x.current[r] = e
                                                         },

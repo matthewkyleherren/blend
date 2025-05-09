@@ -1156,3 +1156,7 @@
         margin-bottom: calc(1.45em + 6.66vh)
     }
 }
+
+.bottom-container {
+    bottom: 0  !important;
+}

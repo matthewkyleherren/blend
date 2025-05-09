@@ -6638,3 +6638,7 @@ screen and (orientation:landscape) and (hover:none) {
     opacity: 0 !important;
     pointer-events: none !important;
 }
+
+.bottom-container {
+    bottom: 0  !important;
+}
