@@ -69,7 +69,7 @@
 }
 
 .button-white {
-    background-color: rgb(var(--color-white)/var(--tw-bg-opacity))
+    background-color: #fff
 }
 
 .button-light_beige,
@@ -246,7 +246,7 @@
     border-width: 1px;
     border-color: rgb(var(--color-dark-grey)/.1);
     --tw-bg-opacity: 1;
-    background-color: rgb(var(--color-white)/var(--tw-bg-opacity));
+    background-color: #fff;
     padding: 1.3rem;
     transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
     transition-timing-function: cubic-bezier(.4, 0, .2, 1);
@@ -2728,7 +2728,7 @@ video {
 
 .bg-white {
     --tw-bg-opacity: 1;
-    /* background-color: rgb(var(--color-white)/var(--tw-bg-opacity)) */
+    /* background-color: #fff */
     background-color:#fff;
 }
 
@@ -4028,7 +4028,7 @@ body {
     margin: 0;
     overflow-x: hidden;
     --tw-bg-opacity: 1;
-    background-color: rgb(var(--color-white)/var(--tw-bg-opacity));
+    background-color: #fff;
     padding: 0;
     font-family: Aeonik, sans-serif;
     font-size: 1.2rem;
@@ -4056,7 +4056,7 @@ body.waiting {
 
 body.has-anchors .header-logo.a {
     --tw-bg-opacity: 1;
-    background-color: rgb(var(--color-white)/var(--tw-bg-opacity))
+    background-color: #fff
 }
 
 body.has-anchors .anchors.a {
@@ -4507,7 +4507,7 @@ ul {
 .checked\:bg-white.radio-checked,
 .radio-checked .checked\:bg-white {
     --tw-bg-opacity: 1;
-    background-color: rgb(var(--color-white)/var(--tw-bg-opacity))
+    background-color: #fff
 }
 
 .post-wrapper .post-wrapper\:pt-40 {
@@ -4981,7 +4981,7 @@ ul {
 
     .md\:bg-white {
         --tw-bg-opacity: 1;
-        background-color: rgb(var(--color-white)/var(--tw-bg-opacity))
+        background-color: #fff
     }
 
     .md\:fill-\[\#fff\] {
@@ -6553,7 +6553,7 @@ screen and (orientation:landscape) and (hover:none) {
 
     .landscape\:bg-white {
         --tw-bg-opacity: 1;
-        background-color: rgb(var(--color-white)/var(--tw-bg-opacity))
+        background-color: #fff
     }
 
     .landscape\:fill-\[\#fff\] {
