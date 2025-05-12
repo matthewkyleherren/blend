@@ -2728,7 +2728,8 @@ video {
 
 .bg-white {
     --tw-bg-opacity: 1;
-    background-color: rgb(var(--color-white)/var(--tw-bg-opacity))
+    /* background-color: rgb(var(--color-white)/var(--tw-bg-opacity)) */
+    background-color:#fff;
 }
 
 .bg-opacity-20 {
@@ -2736,7 +2737,7 @@ video {
 }
 
 .bg-dots {
-    background-image: url(../../../dots.png)
+    /* background-image: url(../../../dots.png) */
 }
 
 .bg-size-dots {
