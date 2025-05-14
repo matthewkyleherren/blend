@@ -10171,7 +10171,7 @@
                         children: "\n            (function(h,o,t,j,a,r){\n                h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};\n                h._hjSettings={hjid:".concat("3523515", ",hjsv:6};\n                a=o.getElementsByTagName('head')[0];\n                r=o.createElement('script');r.async=1;\n                r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;\n                a.appendChild(r);\n            })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');          \n          ")
                     }), (0, o.jsx)(tr(), {
                         id: "reddit",
-                        children: '\n            window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };\n          ')
+                        children: '\n            window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };\n          '
                     }), (0, o.jsx)(tr(), {
                         id: "x-tracking",
                         children: "!function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);\n},s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='https://static.ads-twitter.com/uwt.js',\na=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');\ntwq('config','".concat("p44qj", "');\n")
