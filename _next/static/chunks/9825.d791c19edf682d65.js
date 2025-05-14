@@ -201,7 +201,7 @@
                                     sizes: "(max-width: 768px) 96vw, 100vw"
                                 })
                             }), (0, n.jsx)("div", {
-                                className: "absolute left-0 top-0 w-full h-full z-1 pointer-events-none",
+                                className: "absolute left-0 top-0 w-full h-full z-1 pointer-events-none wrk-disabled",
                                 children: p.foregroundImage.data && (0, n.jsx)(u.p, {
                                     image: p.foregroundImage.data,
                                     fallbackAlt: "",

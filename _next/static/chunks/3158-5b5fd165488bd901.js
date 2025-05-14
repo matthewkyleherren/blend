@@ -120,7 +120,7 @@
                                             })
                                         },
                                         ref: s,
-                                        action: "https://pebblemobility.us8.list-manage.com/subscribe/post?u=7877ff32e8bf0f9475f6058e8&id=9226248b5d&f_id=004e71e0f0",
+                                        action: "#",
                                         method: "post",
                                         id: "mc-embedded-subscribe-form",
                                         name: "mc-embedded-subscribe-form",

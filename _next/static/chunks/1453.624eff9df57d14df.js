@@ -420,7 +420,7 @@
                                                 })
                                             }), (0, l.jsxs)("div", {
                                                 ref: T,
-                                                className: "absolute bottom-[0.6rem] right-[0.6rem] md:bottom-[1.25rem] md:right-[1.25rem] w-[calc(100%_-_1.2rem)] md:w-[39rem] lg:w-[59rem] xl:w-[39rem] flex items-center bg-white p-[0.2rem] rounded-12 pointer-events-auto",
+                                                className: "absolute bottom-[0.6rem] right-[0.6rem] md:bottom-[1.25rem] md:right-[1.25rem] w-[calc(100%_-_1.2rem)] md:w-[39rem] lg:w-[59rem] xl:w-[39rem] flex items-center bg-white p-[0.2rem] rounded-12 pointer-events-auto wrk-disabled",
                                                 children: [(0, l.jsx)("div", {
                                                     ref: z,
                                                     className: "relative w-[11.5rem] lg:w-[16rem] xl:w-[11rem] z-1",
