@@ -4984,7 +4984,7 @@
                                                 }
                                                 r = i, n.updateQueue = r, null !== r && (n.flags |= 4)
                                             } else {
-                                                c = 9 === i.nodeType ? i : i.ownerDocument, "http://www.w3.org/1999/xhtml" === e && (e = ec(t)), "http://www.w3.org/1999/xhtml" === e ? "script" === t ? ((e = c.createElement("div")).innerHTML = "<script></script>", e = e.removeChild(e.firstChild)) : "string" == typeof r.is ? e = c.createElement(t, {
+                                                c = 9 === i.nodeType ? i : i.ownerDocument, "http://www.w3.org/1999/xhtml" === e && (e = ec(t)), "http://www.w3.org/1999/xhtml" === e ? "script" === t ? ((e = c.createElement("div")).innerHTML = "<script></>", e = e.removeChild(e.firstChild)) : "string" == typeof r.is ? e = c.createElement(t, {
                                                     is: r.is
                                                 }) : (e = c.createElement(t), "select" === t && (c = e, r.multiple ? c.multiple = !0 : r.size && (c.size = r.size))) : e = c.createElementNS(e, t), e[rz] = n, e[rT] = r, l(e, n, !1, !1), n.stateNode = e;
                                                 e: {
