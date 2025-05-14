@@ -10158,11 +10158,8 @@
                     children: [(0, o.jsxs)(o.Fragment, {
                         children: [(0, o.jsx)(tr(), {
                             id: "google-tag-manager",
-                            src: "https://www.googletagmanager.com/gtag/js?id=".concat("G-PRSB9NGYMD")
-                        }), (0, o.jsx)(tr(), {
-                            id: "google-config",
-                            children: "\n              window.dataLayer = window.dataLayer || [];\n              function gtag(){dataLayer.push(arguments);}\n              gtag('js', new Date());\n              gtag('config', '".concat("AW-11206996922", "');\n              gtag('config', '").concat("G-PRSB9NGYMD", "', {\n                page_path: window.location.pathname,\n                page_title: document.title,\n                page_location: window.location.href,\n              });\n          ")
-                        })]
+                            src: "https://www.googletagmanager.com/gtag/js"
+                        }), ]
                     }), (0, o.jsx)(tr(), {
                         children: '\n            window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };\n          '
                     }), (0, o.jsx)(H, {}), (0, o.jsxs)(ta.SessionProvider, {
