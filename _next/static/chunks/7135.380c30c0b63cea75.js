@@ -271,7 +271,7 @@
                                     })
                                 }), (0, n.jsx)("div", {
                                     ref: A,
-                                    className: "relative mt-auto pb-10 ml-10",
+                                    className: "relative mt-auto pb-10 ml-10 disabled-wrk",
                                     children: (0, n.jsx)(l.Z, {
                                         size: "large",
                                         children: (0, n.jsx)("div", {
@@ -489,7 +489,7 @@
                                             children: r.itemLeft.title
                                         })
                                     }), (0, n.jsx)("div", {
-                                        className: "relative mt-auto pb-[0.6rem] ml-[0.6rem]",
+                                        className: "relative mt-auto pb-[0.6rem] ml-[0.6rem] disabled-wrk",
                                         ref: e => {
                                             p.current[0] = e
                                         },
@@ -526,7 +526,7 @@
                                             children: r.itemRight.title
                                         })
                                     }), (0, n.jsx)("div", {
-                                        className: "relative mt-auto pb-[0.6rem] ml-[0.6rem]",
+                                        className: "relative mt-auto pb-[0.6rem] ml-[0.6rem] disabled-wrk",
                                         ref: e => {
                                             p.current[1] = e
                                         },
@@ -582,7 +582,7 @@
                                             children: r.itemCenter.title
                                         })
                                     }), (0, n.jsx)("div", {
-                                        className: "relative mt-auto pb-[0.6rem] ml-[0.6rem]",
+                                        className: "relative mt-auto pb-[0.6rem] ml-[0.6rem] disabled-wrk",
                                         ref: e => {
                                             p.current[2] = e
                                         },

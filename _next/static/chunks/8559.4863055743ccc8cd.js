@@ -646,7 +646,7 @@
                                         children: (0, n.jsxs)("div", {
                                             className: "col-start-1 col-end-7 lg:col-start-2 lg:col-end-12",
                                             children: [(0, n.jsx)("div", {
-                                                className: "lg:hidden text-white text-center overflow-hidden w-[110%] -ml-[5%] pb-[10px] meetblend-m text-invisible",
+                                                className: "lg:hidden text-white text-center overflow-hidden w-[110%] -ml-[5%] pb-[10px] meetblend-m text-invisible disable-hero-text",
                                                 children: r.title.split("\n").map((e, r) => (0, n.jsx)("span", {
                                                     className: "block " + (r > 0 ? "-mt-[1.9rem] lg:-mt-8" : ""),
                                                     ref: e => {
@@ -661,7 +661,7 @@
                                                     })
                                                 }, r))
                                             }), (0, n.jsx)("div", {
-                                                className: "hidden lg:block text-white text-center overflow-hidden meetblend-d text-invisible",
+                                                className: "hidden lg:block text-white text-center overflow-hidden meetblend-d text-invisible disable-hero-text",
                                                 children: r.title.split("\n").map((e, r) => (0, n.jsx)("span", {
                                                     className: "block " + (r > 0 ? "-mt-[1.9rem] lg:-mt-8 pb-[2rem]" : ""),
                                                     ref: e => {

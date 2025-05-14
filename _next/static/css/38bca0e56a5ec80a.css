@@ -6640,6 +6640,22 @@ screen and (orientation:landscape) and (hover:none) {
     pointer-events: none !important;
 }
 
+
+.disable-hero-text {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+}
+
+.disable-hero-text {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+}
+
+
 .bottom-container {
     bottom: 10% !important;
 }
