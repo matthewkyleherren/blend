@@ -10164,17 +10164,7 @@
                             children: "\n              window.dataLayer = window.dataLayer || [];\n              function gtag(){dataLayer.push(arguments);}\n              gtag('js', new Date());\n              gtag('config', '".concat("AW-11206996922", "');\n              gtag('config', '").concat("G-PRSB9NGYMD", "', {\n                page_path: window.location.pathname,\n                page_title: document.title,\n                page_location: window.location.href,\n              });\n          ")
                         })]
                     }), (0, o.jsx)(tr(), {
-                        id: "meta",
-                        children: "\n            !function(f,b,e,v,n,t,s)\n            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?\n            n.callMethod.apply(n,arguments):n.queue.push(arguments)};\n            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';\n            n.queue=[];t=b.createElement(e);t.async=!0;\n            t.src=v;s=b.getElementsByTagName(e)[0];\n            s.parentNode.insertBefore(t,s)}(window, document,'script',\n            'https://connect.facebook.net/en_US/fbevents.js');\n            fbq('init', '".concat("199311119754135", "');\n          ")
-                    }), (0, o.jsx)(tr(), {
-                        id: "hotjar",
-                        children: "\n            (function(h,o,t,j,a,r){\n                h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};\n                h._hjSettings={hjid:".concat("3523515", ",hjsv:6};\n                a=o.getElementsByTagName('head')[0];\n                r=o.createElement('script');r.async=1;\n                r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;\n                a.appendChild(r);\n            })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');          \n          ")
-                    }), (0, o.jsx)(tr(), {
-                        id: "reddit",
                         children: '\n            window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };\n          '
-                    }), (0, o.jsx)(tr(), {
-                        id: "x-tracking",
-                        children: "!function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);\n},s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='https://static.ads-twitter.com/uwt.js',\na=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');\ntwq('config','".concat("p44qj", "');\n")
                     }), (0, o.jsx)(H, {}), (0, o.jsxs)(ta.SessionProvider, {
                         session: r,
                         children: [l && (0, o.jsx)(V, {
