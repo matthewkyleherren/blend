@@ -108,7 +108,7 @@
                                         ref: f,
                                         preload: "none",
                                         src: u.$N(r.video.data.attributes.url),
-                                        className: "w-full h-full object-cover",
+                                        className: "w-full h-full object-cover wrk-disable",
                                         muted: !0,
                                         playsInline: !0
                                     })]
@@ -119,7 +119,7 @@
                                     className: "w-full h-full object-cover"
                                 })
                             }), (0, l.jsxs)("div", {
-                                className: "absolute bottom-[0.6rem] right-[0.6rem] md:bottom-[1.25rem] md:right-[1.25rem] w-[calc(100%_-_1.2rem)] md:w-[39rem] lg:w-[59rem] xl:w-[39rem] flex items-center bg-white p-[0.2rem] rounded-10 pointer-events-auto z-2",
+                                className: "absolute bottom-[0.6rem] right-[0.6rem] md:bottom-[1.25rem] md:right-[1.25rem] w-[calc(100%_-_1.2rem)] md:w-[39rem] lg:w-[59rem] xl:w-[39rem] flex items-center bg-white p-[0.2rem] rounded-10 pointer-events-auto z-2 hidden wrk-disable",
                                 children: [(0, l.jsx)("div", {
                                     className: "relative w-[11.5rem] lg:w-[16rem] xl:w-[11rem] z-1",
                                     children: (0, l.jsx)("div", {
@@ -420,7 +420,7 @@
                                                 })
                                             }), (0, l.jsxs)("div", {
                                                 ref: T,
-                                                className: "absolute bottom-[0.6rem] right-[0.6rem] md:bottom-[1.25rem] md:right-[1.25rem] w-[calc(100%_-_1.2rem)] md:w-[39rem] lg:w-[59rem] xl:w-[39rem] flex items-center bg-white p-[0.2rem] rounded-12 pointer-events-auto wrk-disabled",
+                                                className: "absolute bottom-[0.6rem] right-[0.6rem] md:bottom-[1.25rem] md:right-[1.25rem] w-[calc(100%_-_1.2rem)] md:w-[39rem] lg:w-[59rem] xl:w-[39rem] flex items-center bg-white p-[0.2rem] opacity-0 rounded-12 pointer-events-auto wrk-disable hidden",
                                                 children: [(0, l.jsx)("div", {
                                                     ref: z,
                                                     className: "relative w-[11.5rem] lg:w-[16rem] xl:w-[11rem] z-1",
