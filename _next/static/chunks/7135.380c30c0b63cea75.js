@@ -275,7 +275,7 @@
                                     children: (0, n.jsx)(l.Z, {
                                         size: "large",
                                         children: (0, n.jsx)("div", {
-                                            className: "body-14 text-white -tracking-0.01",
+                                            className: "body-14 text-white -tracking-0.01 disabled-wrk",
                                             children: (0, n.jsx)(f.Z, {
                                                 content: r.itemLeft.content
                                             })
@@ -322,7 +322,7 @@
                                     })
                                 }), (0, n.jsx)("div", {
                                     ref: _,
-                                    className: "relative mt-auto pb-10 ml-auto mr-10",
+                                    className: "relative mt-auto pb-10 ml-auto mr-10 disabled-wrk",
                                     children: (0, n.jsx)(l.Z, {
                                         size: "large",
                                         children: (0, n.jsx)("div", {
@@ -375,7 +375,7 @@
                                     })
                                 }), (0, n.jsx)("div", {
                                     ref: C,
-                                    className: "left-10 relative mt-auto pb-10 ml-10",
+                                    className: "left-10 relative mt-auto pb-10 ml-10 disabled-wrk",
                                     children: (0, n.jsx)(l.Z, {
                                         size: "large",
                                         children: (0, n.jsx)("div", {

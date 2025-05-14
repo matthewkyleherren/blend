@@ -682,7 +682,7 @@
                                         className: "absolute left-0 top-0 w-full h-full z-4 pointer-events-none flex items-end disabled-wrk",
                                         children: [(0, n.jsx)("video", {
                                             ref: N,
-                                            className: "w-full h-[70%] xl:h-full z-3 pointer-events-none object-cover object-[90%_center] xl:object-[bottom_center]",
+                                            className: "w-full h-[70%] xl:h-full z-3 pointer-events-none object-cover object-[90%_center] xl:object-[bottom_center] disabled-wrk",
                                             loop: !0,
                                             muted: !0,
                                             playsInline: !0,
@@ -692,7 +692,7 @@
                                             })
                                         }), r.foregroundImage.data && (0, n.jsx)("div", {
                                             ref: L,
-                                            className: "absolute left-0 bottom-0 w-full h-[70%] xl:h-full disabled-wrk",
+                                            className: "absolute left-0 bottom-0 w-full h-[70%] xl:h-full",
                                             children: (0, n.jsx)(y.p, {
                                                 loading: "eager",
                                                 priority: !0,
@@ -703,7 +703,7 @@
                                             })
                                         })]
                                     }), (0, n.jsxs)("div", {
-                                        className: "absolute left-0 bottom-[1.3rem] md:bottom-[2rem] w-full px-container flex justify-end grid-cols-12 z-5",
+                                        className: "absolute left-0 bottom-[1.3rem] md:bottom-[2rem] w-full px-container flex justify-end grid-cols-12 z-5 disabled-wrk",
                                         children: [r.displayLiveEvent && (0, n.jsx)("div", {
                                             className: "flex justify-end col-start-1 col-end-5 md:col-start-5 md:col-end-7 lg:col-start-6 lg:col-end-8 xl:col-start-8 xl:col-end-10 ".concat(r.video.data && r.previewVideoLoop.data ? "mr-[0.3rem] md:mr-[0.4rem]" : "h-[14rem] md:h-[22.8rem] lg:h-[35rem] xl:h-[22.8rem]"),
                                             children: (0, n.jsxs)(R(), {
