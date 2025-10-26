@@ -114,8 +114,7 @@
               [],
             ),
             (0, l.jsx)("div", {
-              className:
-                "bg-dark_beige p-half-container-mobile md:p-half-container",
+              className: "bg-white p-half-container-mobile md:p-half-container",
               children: (0, l.jsxs)("div", {
                 ref: t,
                 className:
@@ -136,14 +135,6 @@
                                 className: "w-full h-full object-cover",
                                 sizes: "96vw",
                               }),
-                            }),
-                            (0, l.jsx)("video", {
-                              ref: f,
-                              preload: "none",
-                              src: u.$N(r.video.data.attributes.url),
-                              className: "w-full h-full object-cover",
-                              muted: !0,
-                              playsInline: !0,
                             }),
                           ],
                         })

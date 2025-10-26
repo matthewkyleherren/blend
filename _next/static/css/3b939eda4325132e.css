@@ -6978,3 +6978,109 @@ ul {
     > div {
     display: none !important;
 }
+
+#__next
+    > div:nth-child(4)
+    > div
+    > div.home
+    > div
+    > div:nth-child(3)
+    > section
+    > div
+    > div
+    > div:nth-child(1)
+    > div
+    > div.relative.mt-auto.pb-\[0\.6rem\].ml-\[0\.6rem\] {
+    display: none !important;
+}
+
+#__next
+    > div:nth-child(4)
+    > div
+    > div.home
+    > div
+    > div:nth-child(3)
+    > section
+    > div
+    > div
+    > div:nth-child(2)
+    > div
+    > div.relative.mt-auto.pb-\[0\.6rem\].ml-\[0\.6rem\] {
+    display: none !important;
+}
+
+#__next
+    > div:nth-child(4)
+    > div
+    > div.home
+    > div
+    > div:nth-child(3)
+    > section
+    > div
+    > div
+    > div:nth-child(3)
+    > div
+    > div.relative.mt-auto.pb-\[0\.6rem\].ml-\[0\.6rem\] {
+    display: none !important;
+}
+
+#__next
+    > div:nth-child(4)
+    > div
+    > div.home
+    > div
+    > div:nth-child(5)
+    > div
+    > section
+    > div
+    > div
+    > div:nth-child(1)
+    > div.flex-1.relative.w-full.h-\[100px\].landscape\:h-full.flex.flex-col.rounded-10.overflow-hidden
+    > div {
+    display: none !important;
+}
+
+#__next
+    > div:nth-child(4)
+    > div
+    > div.home
+    > div
+    > div:nth-child(5)
+    > div
+    > section
+    > div
+    > div
+    > div:nth-child(2)
+    > div.flex-1.relative.w-full.h-\[100px\].landscape\:h-full.flex.flex-col.rounded-10.overflow-hidden
+    > div {
+    display: none !important;
+}
+
+#__next
+    > div:nth-child(4)
+    > div
+    > div.home
+    > div
+    > div:nth-child(5)
+    > div
+    > section
+    > div
+    > div
+    > div:nth-child(3)
+    > div.flex-1.relative.w-full.h-\[100px\].landscape\:h-full.flex.flex-col.rounded-10.overflow-hidden
+    > div {
+    display: none !important;
+}
+
+#__next
+    > div:nth-child(4)
+    > div
+    > div.home
+    > div
+    > div:nth-child(7)
+    > section
+    > div
+    > div
+    > div.absolute.bottom-\[0\.6rem\].right-\[0\.6rem\].md\:bottom-\[1\.25rem\].md\:right-\[1\.25rem\].w-\[calc\(100\%_-_1\.2rem\)\].md\:w-\[39rem\].lg\:w-\[59rem\].xl\:w-\[39rem\].flex.items-center.bg-white.p-\[0\.2rem\].rounded-10.pointer-events-auto.z-2 {
+    display: none !important;
+}
