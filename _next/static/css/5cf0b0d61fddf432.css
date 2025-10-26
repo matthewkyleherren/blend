@@ -1,0 +1,208 @@
+.logIn_logInContainer___Iitt {
+  background-color: #fdfdfd;
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 99
+}
+
+.logIn_imageContainer__5KgC7 {
+  height: 22.85em;
+  width: 100%;
+  padding-top: .3em;
+  padding-left: .3em;
+  padding-right: .3em;
+  margin-bottom: 3.9em
+}
+
+.logIn_imageContainer__5KgC7 img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  border-radius: .5em
+}
+
+.logIn_homeButton__IonDM {
+  width: 4.65em;
+  top: .7em;
+  left: .7em;
+  aspect-ratio: 1/1;
+  position: absolute;
+  z-index: 99;
+  background-color: #fdfdfd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: .5em;
+  cursor: pointer
+}
+
+.logIn_homeButton__IonDM svg {
+  width: 35%
+}
+
+.logIn_content__6Ee1L {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%
+}
+
+.logIn_title__Bag2O {
+  font-family: Youth;
+  font-size: 2.7em;
+  color: #575349;
+  font-weight: 500;
+  margin-bottom: 1.35em
+}
+
+.logIn_formContainer__OqzN9 {
+  width: 92%;
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+.logIn_logMethodContainer__h8bYo {
+  width: 82%;
+  display: flex;
+  justify-content: space-between;
+  letter-spacing: .05em;
+  font-size: .95em;
+  margin-bottom: 1.85em
+}
+
+.logIn_logMethodContainer__h8bYo>button {
+  display: flex;
+  align-items: center;
+  gap: .5em;
+  font-family: Aeonik Fono;
+  text-transform: uppercase
+}
+
+.logIn_logMethodContainer__h8bYo svg {
+  width: 1em;
+  transition: width .5s cubic-bezier(.075, .82, .165, 1)
+}
+
+.logIn_form__20_F0 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%
+}
+
+.logIn_form__20_F0 input {
+  width: 100%;
+  padding: 1.33em .8em;
+  border-radius: .5em;
+  border: 1px solid #d6d4d1;
+  font-family: Aeonik;
+  font-weight: 400;
+  color: #575349;
+  font-size: 1.08em;
+  outline: none;
+  margin-bottom: .75em
+}
+
+.logIn_form__20_F0 input::-moz-placeholder {
+  color: #a39b8b
+}
+
+.logIn_form__20_F0 input::placeholder {
+  color: #a39b8b
+}
+
+.logIn_form__20_F0 button {
+  background-color: #efede8;
+  font-family: FTPolarMono;
+  text-transform: uppercase;
+  font-weight: 100;
+  color: #575349;
+  width: 50.72%;
+  border-radius: .5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-top: 1.95em;
+  font-size: .85em;
+  padding-top: 2.1em;
+  padding-bottom: 2.1em;
+  letter-spacing: .05em;
+  margin-bottom: 1.8em
+}
+
+.logIn_passwordResetCTA__H89cM {
+  font-family: Aeonik;
+  color: #575349;
+  text-decoration: underline;
+  font-size: 1.05em;
+  text-underline-offset: .3em;
+  cursor: pointer
+}
+
+@media (min-width:1024px) {
+  .logIn_logInContainer___Iitt {
+    height: 100vh;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: .8em .7em
+  }
+
+  .logIn_imageContainer__5KgC7 {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 48.958vw;
+    position: relative
+  }
+
+  .logIn_imageContainer__5KgC7 img {
+    border-radius: .8em
+  }
+
+  .logIn_homeButton__IonDM {
+    top: .8em;
+    left: .8em
+  }
+
+  .logIn_content__6Ee1L {
+    width: 48.958vw
+  }
+
+  .logIn_formContainer__OqzN9 {
+    width: 27.777vw
+  }
+
+  .logIn_title__Bag2O {
+    font-size: 3.22em;
+    margin-bottom: .65em
+  }
+
+  .logIn_logMethodContainer__h8bYo {
+    width: 85.25%;
+    font-size: 1.22em;
+    margin-bottom: 1.35em
+  }
+
+  .logIn_form__20_F0 input {
+    font-size: 1.25em;
+    padding: 1.02em .7em
+  }
+
+  .logIn_form__20_F0 button {
+    margin-top: 2.8em;
+    width: 43.75%;
+    margin-bottom: 2.4em
+  }
+
+  .logIn_passwordResetCTA__H89cM {
+    font-size: 1.22em;
+    text-underline-offset: .3em
+  }
+}

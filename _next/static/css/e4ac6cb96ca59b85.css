@@ -1,0 +1,240 @@
+.resetPassword_resetPasswordContainer__8a5VA {
+  background-color: #fdfdfd;
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 99
+}
+
+.resetPassword_imageContainer__3mFOX {
+  height: 22.85em;
+  width: 100%;
+  padding-top: .3em;
+  padding-left: .3em;
+  padding-right: .3em;
+  margin-bottom: 3.9em
+}
+
+.resetPassword_imageContainer__3mFOX img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  border-radius: .5em
+}
+
+.resetPassword_homeButton__JoBBa {
+  width: 4.65em;
+  top: .7em;
+  left: .7em;
+  aspect-ratio: 1/1;
+  position: absolute;
+  z-index: 99;
+  background-color: #fdfdfd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: .5em;
+  cursor: pointer
+}
+
+.resetPassword_homeButton__JoBBa svg {
+  width: 35%
+}
+
+.resetPassword_content__hTA1O {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%
+}
+
+.resetPassword_title__yGfO_ {
+  font-family: Youth;
+  font-size: 2.8em;
+  color: #575349;
+  font-weight: 500;
+  margin-bottom: .35em;
+  letter-spacing: -.03em
+}
+
+.resetPassword_subtitle__wLhbw {
+  color: #a39b8b;
+  font-family: Aeonik;
+  font-size: 1.2em;
+  margin-bottom: 1.95em;
+  text-align: center
+}
+
+.resetPassword_formContainer__NTctL {
+  width: 92%;
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+.resetPassword_form__hYDfY {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%
+}
+
+.resetPassword_form__hYDfY input {
+  width: 100%;
+  padding: 1.33em .8em;
+  border-radius: .5em;
+  border: 1px solid #d6d4d1;
+  font-family: Aeonik;
+  font-weight: 400;
+  color: #575349;
+  font-size: 1.08em;
+  outline: none;
+  margin-bottom: 1.2em
+}
+
+.resetPassword_form__hYDfY input::-moz-placeholder {
+  color: #a39b8b
+}
+
+.resetPassword_form__hYDfY input::placeholder {
+  color: #a39b8b
+}
+
+.resetPassword_form__hYDfY button {
+  background-color: #efede8;
+  font-family: FTPolarMono;
+  text-transform: uppercase;
+  font-weight: 100;
+  color: #575349;
+  width: 57.97%;
+  border-radius: .5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-top: 2.9em;
+  font-size: .85em;
+  padding-top: 2.1em;
+  padding-bottom: 2.1em;
+  letter-spacing: .05em;
+  margin-bottom: 1.8em
+}
+
+.resetPassword_forgotEmailCTA__r9r9A {
+  font-family: Aeonik;
+  font-weight: 400;
+  color: #575349;
+  text-decoration: underline;
+  font-size: 1.05em;
+  text-underline-offset: .25em;
+  cursor: pointer
+}
+
+.resetPassword_emailSentInfo__XFmcO {
+  font-family: Aeonik;
+  font-weight: 400;
+  color: #575349;
+  font-size: 1.25em
+}
+
+.resetPassword_tryAgainButton__zNioe {
+  background-color: #efede8;
+  font-family: FTPolarMono;
+  text-transform: uppercase;
+  font-weight: 100;
+  color: #575349;
+  width: 57.97%;
+  border-radius: .5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-top: 2.4em;
+  font-size: .85em;
+  padding-top: 2.1em;
+  padding-bottom: 2.1em;
+  letter-spacing: .05em;
+  margin-bottom: 1.5em
+}
+
+.resetPassword_backToSignInCTA__0fUHe {
+  font-family: Aeonik;
+  font-weight: 400;
+  color: #575349;
+  text-decoration: underline;
+  font-size: 1.05em;
+  text-underline-offset: .25em;
+  cursor: pointer
+}
+
+@media (min-width:1024px) {
+  .resetPassword_resetPasswordContainer__8a5VA {
+    height: 100vh;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: .8em .7em
+  }
+
+  .resetPassword_imageContainer__3mFOX {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 48.958vw;
+    position: relative
+  }
+
+  .resetPassword_imageContainer__3mFOX img {
+    border-radius: .8em
+  }
+
+  .resetPassword_homeButton__JoBBa {
+    top: .8em;
+    left: .8em
+  }
+
+  .resetPassword_content__hTA1O {
+    width: 48.958vw
+  }
+
+  .resetPassword_formContainer__NTctL {
+    width: 27.777vw
+  }
+
+  .resetPassword_title__yGfO_ {
+    font-size: 3.45em;
+    margin-bottom: .31em
+  }
+
+  .resetPassword_subtitle__wLhbw {
+    font-size: 1.23em;
+    margin-bottom: 2.63em
+  }
+
+  .resetPassword_forgotEmailCTA__r9r9A {
+    font-size: 1.22em;
+    margin-bottom: .58em
+  }
+
+  .resetPassword_form__hYDfY button {
+    width: 43.75%
+  }
+
+  .resetPassword_backToSignInCTA__0fUHe {
+    font-size: 1.22em
+  }
+
+  .resetPassword_emailSentInfo__XFmcO {
+    font-family: Youth;
+    font-weight: 500;
+    font-size: 1.22em;
+    margin-bottom: .85em
+  }
+
+  .resetPassword_tryAgainButton__zNioe {
+    width: 31.91%
+  }
+}

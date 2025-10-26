@@ -1,0 +1,401 @@
+.Benefits_benefitsContainer__cWE0X {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative
+}
+
+.Benefits_benefitsIntroductionContainer__NFIUK {
+  height: 95.44vh;
+  width: 100%;
+  background-color: #efede9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  position: absolute
+}
+
+.Benefits_benefitsIntroductionContainer__NFIUK h2 {
+  font-family: Youth;
+  font-weight: 500;
+  letter-spacing: -.04em;
+  color: #4c4c4c;
+  font-size: 5.1em;
+  margin-bottom: .23em;
+  text-align: center
+}
+
+.Benefits_benefitsIntroductionContainer__NFIUK .Benefits_separateLine__cZ5DB span {
+  position: absolute;
+  width: .6em;
+  border-bottom: 1px solid #4c4c4c
+}
+
+.Benefits_benefitsIntroductionContainer__NFIUK .Benefits_separateLine__cZ5DB span:first-child {
+  transform: rotate(90deg)
+}
+
+.Benefits_benefitsIntroductionContainer__NFIUK .Benefits_separateLine__cZ5DB {
+  width: 27.777%;
+  border-bottom: 1px solid #d6d5d1;
+  margin-bottom: 3.6em;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.Benefits_benefitsIntroductionContainer__NFIUK p {
+  font-family: Aeonik;
+  font-weight: 400;
+  color: #4c4c4c;
+  letter-spacing: .01em;
+  width: 27.777%;
+  font-size: 1.25em;
+  text-align: center
+}
+
+.Benefits_sectionsAndImageContainer__fzJmb {
+  display: flex;
+  padding-top: .9em;
+  padding-right: .9em;
+  position: relative;
+  width: 100%;
+  padding-bottom: 1.1115vh
+}
+
+.Benefits_benefitsSectionsContainer__KU_YV {
+  width: 100%
+}
+
+.Benefits_benefitsImage__wR60d {
+  height: 97.777vh;
+  width: 62.464%;
+  border-radius: .9em;
+  -o-object-fit: cover;
+  object-fit: cover;
+  position: sticky;
+  top: calc(-95.44vh + 1.1115vh);
+  right: .9em
+}
+
+.Benefits_sectionsChargingWrapper__oqNNW {
+  width: 38.41%;
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+.Benefits_sectionsPlumbingWrapper__jb0Gs {
+  width: 36.83%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: .9em;
+  background-color: #fdfdfd;
+  position: relative;
+  height: 97.777vh
+}
+
+.Benefits_plumbingBenefitsCountContainer__uxYYb {
+  width: 92.35%;
+  background-color: #cbc7bd;
+  border-radius: .5em;
+  font-family: Aeonik Fono;
+  text-transform: uppercase;
+  color: #fdfdfd;
+  letter-spacing: .05em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2.27em;
+  padding-bottom: 2.27em;
+  position: absolute;
+  bottom: 2.7272%;
+  font-size: .85em
+}
+
+.Benefits_sectionChargingContainer__49F_I,
+.Benefits_sectionPlumbingContainer__xTE_X {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5.83em
+}
+
+.Benefits_sectionPlumbingContainer__xTE_X {
+  position: absolute;
+  top: 0;
+  height: 90.68%;
+  justify-content: center
+}
+
+.Benefits_sectionPlumbingSeparateLine__C7bE_ span {
+  position: absolute;
+  width: .6em;
+  border-bottom: 1px solid #4c4c4c
+}
+
+.Benefits_sectionPlumbingSeparateLine__C7bE_ span:first-child {
+  transform: rotate(90deg)
+}
+
+.Benefits_sectionPlumbingSeparateLine__C7bE_ {
+  width: 92.73%;
+  border-bottom: 1px solid #e7e7e7;
+  margin-bottom: 2.83em;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.Benefits_sectionPlumbingContainer__xTE_X p {
+  width: 66.92%;
+  font-family: Aeonik;
+  font-weight: 400;
+  letter-spacing: .01em;
+  color: #4c4c4c;
+  text-align: center;
+  font-size: 1.18em
+}
+
+.Benefits_iconContainer__W5vB9 {
+  width: 4.3em;
+  height: 4.3em;
+  border: 1px solid #d9d9d9;
+  border-radius: .5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2.45em
+}
+
+.Benefits_iconContainer__W5vB9 img {
+  width: 35%
+}
+
+.Benefits_sectionChargingContainer__49F_I h3 {
+  font-size: 2.98em;
+  width: 58.76%;
+  margin-bottom: .65em
+}
+
+.Benefits_sectionChargingContainer__49F_I h3,
+.Benefits_sectionPlumbingContainer__xTE_X h3 {
+  font-family: Youth;
+  font-weight: 500;
+  color: #4c4c4c;
+  letter-spacing: -.04em;
+  text-align: center;
+  line-height: 98%
+}
+
+.Benefits_sectionPlumbingContainer__xTE_X h3 {
+  font-size: 3.7em;
+  margin-bottom: 2.33em
+}
+
+.Benefits_sectionChargingContainer__49F_I p {
+  font-family: Aeonik;
+  font-weight: 400;
+  letter-spacing: .01em;
+  color: #4c4c4c;
+  width: 58.76%;
+  text-align: center;
+  font-size: 1.16em;
+  margin-bottom: 7.32em
+}
+
+.Benefits_sectionChargingContainer__49F_I .Benefits_separateLine__cZ5DB span {
+  position: absolute;
+  width: .6em;
+  border-bottom: 1px solid #575349
+}
+
+.Benefits_sectionChargingContainer__49F_I .Benefits_separateLine__cZ5DB span:first-child {
+  transform: rotate(90deg)
+}
+
+.Benefits_sectionChargingContainer__49F_I .Benefits_separateLine__cZ5DB {
+  width: 87.68%;
+  border-bottom: 1px solid #edeceb;
+  margin-bottom: 2.83em;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+@media (max-width:1023px) {
+  .Benefits_benefitsIntroductionContainer__NFIUK {
+    height: 64.14vh;
+    overflow: hidden
+  }
+
+  .Benefits_benefitsIntroductionContainer__NFIUK h2 {
+    font-size: 6em;
+    margin-bottom: .47em
+  }
+
+  .Benefits_benefitsIntroductionContainer__NFIUK .Benefits_separateLine__cZ5DB {
+    width: 42.66%;
+    margin-bottom: 4.5em
+  }
+
+  .Benefits_benefitsIntroductionContainer__NFIUK .Benefits_separateLine__cZ5DB span {
+    width: 1em
+  }
+
+  .Benefits_benefitsIntroductionContainer__NFIUK p {
+    width: 73.33%;
+    font-size: 2.5em
+  }
+
+  .Benefits_sectionsAndImageContainer__fzJmb {
+    padding-top: 0;
+    padding-right: 0;
+    padding-left: 0 !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+  }
+
+  .Benefits_benefitsImage__wR60d {
+    height: 36.71vh;
+    width: 94.66%
+  }
+
+  .Benefits_sectionsChargingWrapper__oqNNW {
+    height: calc(63.29vh - 3vw);
+    width: 100%;
+    position: relative
+  }
+
+  .Benefits_sectionChargingContainer__49F_I {
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%
+  }
+
+  .Benefits_iconContainer__W5vB9 {
+    width: 7.2em;
+    height: 7.2em;
+    border-radius: 1em;
+    margin-bottom: 4.25em
+  }
+
+  .Benefits_sectionChargingContainer__49F_I h3 {
+    font-size: 5.3em;
+    width: 100%;
+    margin-bottom: .79em
+  }
+
+  .Benefits_sectionChargingContainer__49F_I p {
+    font-size: 2.17em;
+    margin-bottom: 0
+  }
+
+  .Benefits_sectionChargingContainer__49F_I {
+    padding-top: 0
+  }
+
+  .Benefits_sectionsPlumbingWrapper__jb0Gs {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 97.333%;
+    background-color: #cbc7bd
+  }
+
+  .Benefits_sectionsPlumbingWrapper__jb0Gs img {
+    border-radius: .9em;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    height: 41.5em !important;
+    position: static !important;
+    margin-bottom: 1em
+  }
+
+  .Benefits_sectionPlumbingContainer__xTE_X {
+    position: static;
+    background-color: #fdfdfd;
+    border-radius: .9em;
+    height: auto;
+    padding-top: 5.83em;
+    margin-bottom: 5em
+  }
+
+  .Benefits_sectionPlumbingContainer__xTE_X h3 {
+    width: 90%;
+    font-size: 4.3em;
+    margin-bottom: 1.78em
+  }
+
+  .Benefits_sectionPlumbingSeparateLine__C7bE_ span {
+    width: 1.2em
+  }
+
+  .Benefits_sectionPlumbingSeparateLine__C7bE_ {
+    width: 91.78%;
+    margin-bottom: 6.5em
+  }
+
+  .Benefits_sectionPlumbingContainer__xTE_X p {
+    width: 87.67%;
+    font-size: 2.15em;
+    margin-bottom: 2.5em
+  }
+}
+
+@media (max-width:900px) {
+  .Benefits_benefitsContainer__cWE0X {
+    font-size: .8em
+  }
+}
+
+@media (max-width:650px) {
+  .Benefits_benefitsContainer__cWE0X {
+    font-size: .65em
+  }
+}
+
+@media (max-width:500px) {
+  .Benefits_benefitsContainer__cWE0X {
+    font-size: .5em
+  }
+}
+
+@media (max-width:373px) {
+  .Benefits_benefitsContainer__cWE0X {
+    font-size: .45em
+  }
+}
+
+@media (max-width:340px) {
+  .Benefits_benefitsContainer__cWE0X {
+    font-size: .4em
+  }
+}
+
+.separateLine_separateLine__XZlUb span {
+  position: absolute;
+  width: .5em;
+  aspect-ratio: 1/.15
+}
+
+.separateLine_separateLine__XZlUb span:first-child {
+  transform: rotate(90deg)
+}
+
+.separateLine_separateLine__XZlUb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative
+}

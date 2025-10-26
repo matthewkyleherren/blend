@@ -1,0 +1,136 @@
+.AnnotatedBackgroundSection_howItWorksContainer__lg2uu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  z-index: 2;
+  background-color: #efede8;
+  opacity: 0
+}
+
+.AnnotatedBackgroundSection_wrapper__hBKKe {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: .9em
+}
+
+.AnnotatedBackgroundSection_textContent__OZLMb {
+  position: absolute;
+  bottom: 1.85em;
+  left: 1.85em;
+  background-color: #f2efe94d;
+  backdrop-filter: blur(5em);
+  color: #f2efe9;
+  width: 26.736%;
+  border-radius: .9em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 6.33em;
+  padding-bottom: 6.33em
+}
+
+.AnnotatedBackgroundSection_textContent__OZLMb h2 {
+  font-family: Youth;
+  font-weight: 500;
+  letter-spacing: -.04em;
+  font-size: 2.33em;
+  margin-bottom: 1.73em
+}
+
+.AnnotatedBackgroundSection_textContent__OZLMb p {
+  width: 77.92%;
+  text-align: center;
+  font-family: Aeonik;
+  letter-spacing: .01em;
+  font-size: 1.16em;
+  margin-bottom: 1em
+}
+
+.AnnotatedBackgroundSection_separateLine__ufj8_ span {
+  position: absolute;
+  width: .6em;
+  border-bottom: 1px solid #f2efe9
+}
+
+.AnnotatedBackgroundSection_separateLine__ufj8_ span:first-child {
+  transform: rotate(90deg)
+}
+
+.AnnotatedBackgroundSection_separateLine__ufj8_ {
+  width: 93.5%;
+  border-bottom: 1px solid #f2efe933;
+  margin-bottom: 4.4em;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.AnnotatedBackgroundSection_image__JLa4t {
+  width: 100%;
+  height: 100%;
+  border-radius: 1em;
+  -o-object-fit: cover;
+  object-fit: cover
+}
+
+@media (max-width:1023px) {
+  .AnnotatedBackgroundSection_wrapper__hBKKe h2 {
+    position: absolute;
+    color: #f2efe9;
+    font-family: Youth;
+    font-weight: 500;
+    letter-spacing: -.04em;
+    font-size: 6.05em
+  }
+
+  .AnnotatedBackgroundSection_textContent__OZLMb {
+    bottom: 2.5em;
+    left: 2.5em;
+    padding: 1.7em;
+    width: 70.4vw
+  }
+
+  .AnnotatedBackgroundSection_textContent__OZLMb p {
+    text-align: left;
+    width: 100%;
+    font-size: 2.17em;
+    margin-bottom: 0
+  }
+}
+
+@media (max-width:900px) {
+  .AnnotatedBackgroundSection_howItWorksContainer__lg2uu {
+    font-size: .8em
+  }
+}
+
+@media (max-width:650px) {
+  .AnnotatedBackgroundSection_howItWorksContainer__lg2uu {
+    font-size: .65em
+  }
+}
+
+@media (max-width:500px) {
+  .AnnotatedBackgroundSection_howItWorksContainer__lg2uu {
+    font-size: .5em
+  }
+}
+
+@media (max-width:373px) {
+  .AnnotatedBackgroundSection_howItWorksContainer__lg2uu {
+    font-size: .45em
+  }
+}
+
+@media (max-width:340px) {
+  .AnnotatedBackgroundSection_howItWorksContainer__lg2uu {
+    font-size: .4em
+  }
+}
