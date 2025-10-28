@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard - CMS Admin</title>
+  <link rel="stylesheet" href="/admin/css/admin.css">
+</head>
+<body>
+  <div class="header">
+    <div class="header-content">
+      <h1>CMS Admin Panel</h1>
+      <button class="btn btn-secondary btn-small" id="logoutBtn">Logout</button>
+    </div>
+  </div>
+
+  <div class="container">
+    <div id="alertContainer"></div>
+
+    <div class="card">
+      <h2 class="card-title">Manage Pages</h2>
+      <p style="color: var(--text-secondary); margin-bottom: 1.5rem;">
+        Select a page to edit its content, images, and text.
+      </p>
+
+      <div id="pagesContainer">
+        <div class="loading">
+          <div class="spinner"></div>
+          <p>Loading pages...</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2 class="card-title">Recent Backups</h2>
+      <div id="backupsContainer">
+        <p style="color: var(--text-secondary);">Loading backups...</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="/admin/js/dashboard.js"></script>
+</body>
+</html>
