@@ -225,11 +225,13 @@
                     children: [p.button && (0, n.jsx)(a.Z, {
                       ref: C,
                       href: s.sI(p.button),
+                      target: p.button.target,
                       children: p.button.title
                     }), p.secondaryButton && (0, n.jsx)(a.Z, {
                       ref: _,
                       mode: "blur",
                       href: s.sI(p.secondaryButton),
+                      target: p.secondaryButton.target,
                       children: p.secondaryButton.title
                     })]
                   }), p.bottomText && (0, n.jsx)("div", {
