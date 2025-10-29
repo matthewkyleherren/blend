@@ -143,12 +143,14 @@ Create `vercel.json` in admin directory:
       "dest": "/server.js"
     },
     {
-      "src": "/api/(.*)",
+      "src": "/cms-api/(.*)",
       "dest": "/server.js"
     }
   ]
 }
 ```
+
+**Note:** The admin panel uses `/cms-api` routes to avoid conflicts with Next.js `/api` routes.
 
 ### Option 2: Separate Deployment
 

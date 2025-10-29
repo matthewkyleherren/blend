@@ -17,7 +17,7 @@ checkAuth();
 
 async function checkAuth() {
   try {
-    const response = await fetch('/api/auth/check', {
+    const response = await fetch('/cms-api/auth/check', {
       credentials: 'include'
     });
     const data = await response.json();
@@ -43,7 +43,7 @@ document.getElementById('logoutBtn').addEventListener('click', async () => {
   }
 
   try {
-    await fetch('/api/auth/logout', {
+    await fetch('/cms-api/auth/logout', {
       method: 'POST',
       credentials: 'include'
     });
@@ -56,7 +56,7 @@ document.getElementById('logoutBtn').addEventListener('click', async () => {
 // Load page data
 async function loadPage() {
   try {
-    const response = await fetch(`/api/pages/${pageSlug}`, {
+    const response = await fetch(`/cms-api/pages/${pageSlug}`, {
       credentials: 'include'
     });
 
@@ -333,7 +333,7 @@ document.getElementById('saveBtn').addEventListener('click', async () => {
   btn.textContent = 'Saving...';
 
   try {
-    const response = await fetch(`/api/pages/${pageSlug}`, {
+    const response = await fetch(`/cms-api/pages/${pageSlug}`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
@@ -419,7 +419,7 @@ function closeImageModal() {
 // Load images
 async function loadImages() {
   try {
-    const response = await fetch('/api/upload/images', {
+    const response = await fetch('/cms-api/upload/images', {
       credentials: 'include'
     });
 
@@ -508,7 +508,7 @@ document.getElementById('uploadImageBtn').addEventListener('click', async () => 
   formData.append('image', file);
 
   try {
-    const response = await fetch('/api/upload', {
+    const response = await fetch('/cms-api/upload', {
       method: 'POST',
       credentials: 'include',
       body: formData

@@ -35,9 +35,10 @@ app.use(session({
   resave: false,
   saveUninitialized: false,
   cookie: {
-    secure: false, // Set to true if using HTTPS
+    secure: process.env.NODE_ENV === 'production', // Use secure cookies in production (HTTPS)
     httpOnly: true,
-    maxAge: 24 * 60 * 60 * 1000 // 24 hours
+    maxAge: 24 * 60 * 60 * 1000, // 24 hours
+    sameSite: 'lax'
   }
 }));
 
@@ -57,14 +58,14 @@ app.use('/admin', express.static(path.join(__dirname, 'public')));
 // Serve uploaded images
 app.use('/admin/uploads', express.static(path.join(__dirname, 'uploads')));
 
-// Auth routes
-app.post('/api/auth/login', loginLimiter, login);
-app.post('/api/auth/logout', logout);
-app.get('/api/auth/check', checkAuth);
+// Auth routes (using /cms-api to avoid conflict with Next.js /api routes)
+app.post('/cms-api/auth/login', loginLimiter, login);
+app.post('/cms-api/auth/logout', logout);
+app.get('/cms-api/auth/check', checkAuth);
 
 // API routes
-app.use('/api/pages', pagesRouter);
-app.use('/api/upload', uploadsRouter);
+app.use('/cms-api/pages', pagesRouter);
+app.use('/cms-api/upload', uploadsRouter);
 
 // Root redirect
 app.get('/', (req, res) => {
@@ -88,17 +89,20 @@ app.use((err, req, res, next) => {
   });
 });
 
-// Start server
-const PORT = config.port;
-app.listen(PORT, () => {
-  console.log('=================================');
-  console.log('  CMS Admin Panel');
-  console.log('=================================');
-  console.log(`Server running on: http://localhost:${PORT}/admin`);
-  console.log(`Site root: ${config.siteRoot}`);
-  console.log('');
-  console.log('To login, use the password from your .env file');
-  console.log('=================================');
-});
+// Start server (only if running directly, not in Vercel)
+if (require.main === module) {
+  const PORT = config.port;
+  app.listen(PORT, () => {
+    console.log('=================================');
+    console.log('  CMS Admin Panel');
+    console.log('=================================');
+    console.log(`Server running on: http://localhost:${PORT}/admin`);
+    console.log(`Site root: ${config.siteRoot}`);
+    console.log('');
+    console.log('To login, use the password from your .env file');
+    console.log('=================================');
+  });
+}
 
+// Export for Vercel serverless function
 module.exports = app;

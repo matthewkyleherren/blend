@@ -1,0 +1,42 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "admin/server.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/cms-api/(.*)",
+      "dest": "/admin/server.js"
+    },
+    {
+      "src": "/admin/css/(.*)",
+      "dest": "/admin/public/css/$1"
+    },
+    {
+      "src": "/admin/js/(.*)",
+      "dest": "/admin/public/js/$1"
+    },
+    {
+      "src": "/admin/uploads/(.*)",
+      "dest": "/admin/uploads/$1"
+    },
+    {
+      "src": "/admin/(.*)",
+      "dest": "/admin/public/$1"
+    },
+    {
+      "src": "/admin",
+      "dest": "/admin/public/index.html"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
+  ],
+  "env": {
+    "NODE_ENV": "production"
+  }
+}

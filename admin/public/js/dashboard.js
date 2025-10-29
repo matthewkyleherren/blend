@@ -3,7 +3,7 @@ checkAuth();
 
 async function checkAuth() {
   try {
-    const response = await fetch('/api/auth/check', {
+    const response = await fetch('/cms-api/auth/check', {
       credentials: 'include'
     });
     const data = await response.json();
@@ -25,7 +25,7 @@ async function checkAuth() {
 // Logout handler
 document.getElementById('logoutBtn').addEventListener('click', async () => {
   try {
-    await fetch('/api/auth/logout', {
+    await fetch('/cms-api/auth/logout', {
       method: 'POST',
       credentials: 'include'
     });
@@ -38,7 +38,7 @@ document.getElementById('logoutBtn').addEventListener('click', async () => {
 // Load pages
 async function loadPages() {
   try {
-    const response = await fetch('/api/pages', {
+    const response = await fetch('/cms-api/pages', {
       credentials: 'include'
     });
 
@@ -88,7 +88,7 @@ function editPage(slug) {
 // Load backups
 async function loadBackups() {
   try {
-    const response = await fetch('/api/pages/backups/list', {
+    const response = await fetch('/cms-api/pages/backups/list', {
       credentials: 'include'
     });
 

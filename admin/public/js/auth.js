@@ -3,7 +3,7 @@ checkAuthentication();
 
 async function checkAuthentication() {
   try {
-    const response = await fetch('/api/auth/check', {
+    const response = await fetch('/cms-api/auth/check', {
       credentials: 'include'
     });
     const data = await response.json();
@@ -32,7 +32,7 @@ document.getElementById('loginForm')?.addEventListener('submit', async (e) => {
   alertContainer.innerHTML = '';
 
   try {
-    const response = await fetch('/api/auth/login', {
+    const response = await fetch('/cms-api/auth/login', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'

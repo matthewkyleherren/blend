@@ -1,9 +1,18 @@
 require('dotenv').config();
 const path = require('path');
 
+// In Vercel, SITE_ROOT should be the deployment root
+// Locally, it defaults to parent directory
+const getSiteRoot = () => {
+  if (process.env.VERCEL) {
+    return process.env.SITE_ROOT || '/var/task';
+  }
+  return process.env.SITE_ROOT || path.join(__dirname, '..');
+};
+
 module.exports = {
   port: process.env.PORT || 3031,
-  siteRoot: process.env.SITE_ROOT || path.join(__dirname, '..'),
+  siteRoot: getSiteRoot(),
   adminPasswordHash: process.env.ADMIN_PASSWORD_HASH,
   sessionSecret: process.env.SESSION_SECRET,
 

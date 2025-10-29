@@ -1,0 +1,42 @@
+╔═══════════════════════════════════════════════════════════════════╗
+║          VERCEL ENVIRONMENT VARIABLES - COPY & PASTE              ║
+╚═══════════════════════════════════════════════════════════════════╝
+
+Go to: Vercel Dashboard → Your Project → Settings → Environment Variables
+
+Add these 3 variables:
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Variable Name:  ADMIN_PASSWORD_HASH
+Value:          $2b$10$NSzott1yMKnhrmsimMuIMOXlrzLjjtU2LrAsyuta6aHBfzkZfjMO.
+Environment:    Production, Preview, Development (check all)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Variable Name:  SESSION_SECRET
+Value:          3a2c71da7a9cba868cbc761a17eb338bda61e762b328458723cab35cffe893a4
+Environment:    Production, Preview, Development (check all)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Variable Name:  NODE_ENV
+Value:          production
+Environment:    Production (check only Production)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⚠️  IMPORTANT NOTES:
+
+1. DO NOT commit admin/.env to Git
+2. These values are already in your local admin/.env file
+3. After adding variables, redeploy your project
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+YOUR ADMIN PASSWORD:
+FfM33ZB9d+yoL2CerGn7hg==
+
+(Use this to login at https://your-site.vercel.app/admin)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
