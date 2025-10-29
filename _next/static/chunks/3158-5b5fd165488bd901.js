@@ -411,9 +411,9 @@
                 "px-container overflow-hidden py-32 md:pt-48 md:pb-[4.4rem] text-white popup:hidden",
               style: {
                 backgroundColor: "".concat(
-                  "default" === s ? "#282828" : "#EFEDE8",
+                  "default" === s ? "#EFEDE8" : "#EFEDE8",
                 ),
-                color: "".concat("default" === s ? "#Fff" : "#4C4C4C"),
+                color: "".concat("default" === s ? "#4C4C4C" : "#4C4C4C"),
               },
               children: [
                 (0, r.jsxs)("div", {
@@ -437,7 +437,7 @@
                               className:
                                 "svg-wrapper block md:hidden w-[8.9rem]",
                               children: (0, r.jsx)(i, {
-                                fill: "default" === s ? "#Fff" : "#4C4C4C",
+                                fill: "default" === s ? "#4C4C4C" : "#4C4C4C",
                               }),
                             }),
                           ],
@@ -499,7 +499,7 @@
                           className: "w-full h-px opacity-20",
                           style: {
                             backgroundColor: "".concat(
-                              "default" === s ? "#Fff" : "#4C4C4C",
+                              "default" === s ? "#4C4C4C" : "#4C4C4C",
                             ),
                           },
                         }),
@@ -507,7 +507,7 @@
                           className:
                             "svg-wrapper absolute hidden md:block top-1/2 left-1/2 w-[0.7rem] -translate-x-1/2 -translate-y-[0.4rem] md:-translate-y-[0.5rem] lg:-translate-y-[0.4rem]",
                           children: (0, r.jsx)(u.Z, {
-                            color: "default" === s ? "#Fff" : "#4C4C4C",
+                            color: "default" === s ? "#4C4C4C" : "#4C4C4C",
                           }),
                         }),
                       ],
@@ -525,7 +525,7 @@
                               className:
                                 "svg-wrapper hidden lg:block w-[20rem] md:w-[10.6rem] mr-40",
                               children: (0, r.jsx)(i, {
-                                fill: "default" === s ? "#Fff" : "#4C4C4C",
+                                fill: "default" === s ? "#4C4C4C" : "#4C4C4C",
                               }),
                             }),
                             t.bottomLinks.map((e, s) =>
