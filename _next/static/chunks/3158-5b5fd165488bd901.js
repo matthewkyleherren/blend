@@ -466,27 +466,26 @@
                         }),
                         (0, r.jsxs)("div", {
                           className:
-                            "col-span-4 md:col-span-2 lg:col-start-10 lg:col-end-13 flex flex-col items-start",
+                            "col-span-4 md:col-span-2 lg:col-start-10 lg:col-end-13 flex flex-col items-end",
                           children: [
                             (0, r.jsx)("div", {
-                              className:
-                                "body-18 md:body-22 max-w-[20rem] md:max-w-[25.3rem] mb-8 md:mb-15",
-                              children: t.newsletterTitle,
-                            }),
-                            (0, r.jsx)("div", {
-                              onClick: () => {
-                                window.dispatchEvent(
-                                  new CustomEvent("open-popup", {
-                                    detail: {
-                                      name: "newsletter",
-                                    },
-                                  }),
-                                );
-                              },
-                              children: (0, r.jsx)(m, {
-                                title: t.newsletterButtonText,
-                                version: s,
+                              className: "body-mono-10 mb-8 md:mb-12 text-right",
+                              children: (0, r.jsxs)(c.Z, {
+                                href: "https://maps.apple/p/MDozp4CLVy-bxU",
+                                target: "_blank",
+                                className: "transition-opacity duration-global ease-out hover:opacity-50 cursor-pointer",
+                                children: [
+                                  (0, r.jsx)("div", { className: "text-[1.5em] font-bold", children: "BLEND CAFE" }),
+                                  (0, r.jsx)("div", { children: "20 ESPLANADE" }),
+                                  (0, r.jsx)("div", { children: "RYDE, PO33 2DZ" }),
+                                  (0, r.jsx)("div", { children: "ISLE OF WIGHT" }),
+                                ],
                               }),
+                            }),
+                            (0, r.jsx)(c.Z, {
+                              href: "mailto:info@blendiow.co.uk",
+                              className: "body-mono-10 transition-opacity duration-global ease-out hover:opacity-50 text-right",
+                              children: "info@blendiow.co.uk",
                             }),
                           ],
                         }),
